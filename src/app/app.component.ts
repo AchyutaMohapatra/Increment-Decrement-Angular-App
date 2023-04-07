@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'demo-app';
+  num = 1;
+
+  add(){
+    this.num = this.num + 1;
+  }
+
+  sub(){
+    this.num = this.num - 1;
+  }
 }
